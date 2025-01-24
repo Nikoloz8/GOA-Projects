@@ -144,12 +144,7 @@ header{
 input::placeholder{
     color: #fff;
 }
-.input-box i{
-    position: relative;
-    top: -35px;
-    left: 17px;
-    color: #fff;
-}
+
 .submit{
     font-size: 15px;
     font-weight: 500;
