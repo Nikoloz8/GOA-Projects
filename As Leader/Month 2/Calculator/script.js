@@ -40,7 +40,6 @@ function clearDisplay() {
 function calculate() {
     let result = eval(currentInput) // eval ასრულებს მიმატება/გამოკლება/გაყოფა/გამრავლების ოპერაციებს სტრინგში "5 + 5" = "10"
     document.getElementById('display').value = result
-    currentInput = result.toString() // tostring - ს გადაჰყავს ინფორმაცია სტრინგში
 }
 
 document.getElementById('btn7').onclick = function () {
@@ -91,3 +90,5 @@ document.getElementById('equals').onclick = function () {
 document.getElementById('btnAdd').onclick = function () {
     appendToDisplay(' + ')
 }
+
+

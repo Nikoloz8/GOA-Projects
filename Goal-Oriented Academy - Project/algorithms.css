@@ -1,0 +1,23 @@
+.courseheadAI{
+    height: 900px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 60px;
+    background-image: url(./Images/1920_gettyimages-1079012838.jpg);
+    padding: 200px;
+}
+
+.courseheadAI h1{
+    color: white;
+    font-size: 60px;
+    width: 600px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.courseheadAI h3{
+    color: white;
+    margin-top: 20px;
+}

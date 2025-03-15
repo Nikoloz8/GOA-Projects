@@ -1,0 +1,23 @@
+.courseheadProgramming{
+    height: 900px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 60px;
+    background-image: url(./Images/programming_20evolution.jpg);
+    padding: 200px;
+}
+
+.courseheadProgramming h1{
+    color: white;
+    font-size: 60px;
+    width: 600px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.courseheadProgramming h3{
+    color: white;
+    margin-top: 20px;
+}
