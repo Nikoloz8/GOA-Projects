@@ -30,7 +30,7 @@ header img {
     height: 80px;
     border-radius: 0 0 10px 10px;
     margin-top: 20px;
-    
+
 }
 
 .nav-img {
@@ -72,7 +72,7 @@ nav a {
 .adver img {
     width: 60%;
     height: 100%;
-    
+
 }
 
 .adver::after {
@@ -370,23 +370,174 @@ footer {
 }
 
 
-.socials-container{
+.socials-container {
     width: 180px;
     display: flex;
     justify-content: space-between;
 }
 
-.social, .social a{
+.social,
+.social a {
     width: 25px;
     height: 25px;
     background-color: gray;
-    border-radius: 4px ;
+    border-radius: 4px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.social a img{
+.social a img {
     width: 80%;
     height: 80%;
+}
+
+@media screen and (max-width: 1400px) {
+    .adver {
+        flex-wrap: wrap;
+    }
+
+    .adver::after {
+        display: none;
+    }
+
+    .adver img {
+        width: 100%;
+    }
+
+    .courses {
+        margin-top: 800px;
+        height: 1600px;
+    }
+
+    .why-best {
+        padding-top: 50px;
+    }
+
+    header {
+        justify-content: space-around;
+        padding: 0;
+    }
+
+    .companys {
+        padding: 30px 0 30px 0;
+    }
+
+    .dropdown-question h3{
+        width: 90%;
+    }
+
+    .dropdown-question img{
+        height: 26px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .courses {
+        margin-top: 800px;
+        height: 2800px;
+    }
+
+    .why-best h1 {
+        text-align: center;
+    }
+
+    .stats{
+        flex-wrap: wrap;
+    }
+    .why-best{
+        height: 2000px;
+        padding-top: 50px;
+    }
+
+    iframe{
+        width: 500px;
+        height: 300px;
+        margin-bottom: 50px;
+    }
+
+    .companys{
+        height: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 30px 50px;
+        text-align: center;
+    }
+
+    .companyimg-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    header {
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        height: 100px;
+    }
+
+    header nav {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+    .why-best p {
+        margin-top: 50px;
+    }
+    
+    .footer-rows-container{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+
+    footer{
+        height: 700px;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+    .adver div div {
+        text-align: center;
+    }
+
+    .stat{
+        border: 0;
+    }
+
+    .footer{
+        height: 1000px;
+    }
+
+    .companys{
+        height: 600px;
+    }
+
+    .companyimg{
+        margin-top: 20px;
+    }
+
+    .why-best{
+        padding: 50px;
+        display: flex;
+        align-items: center;
+   }
+
+   .courses-container div{
+    width: 300px;
+   }
+
+   .adver img{
+    height: 300px;
+   }
+
+   .courses{
+    margin-top: 500px;
+   }
 }

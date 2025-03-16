@@ -90,6 +90,9 @@ header{
     padding: 50px;
     background-color: #28292e;
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .scheduleContainer h2{
@@ -112,4 +115,50 @@ header{
 .schedule h4{
     color: white;
     margin-top: 10px;
+}
+
+@media screen and (max-width: 800px) {
+    .coursehead, .courseheadRobo, .courseheadProgramming, .courseheadGameDev{
+        padding: 100px;
+    }
+
+    .scheduleContainer{
+        height: 600px;
+    }
+
+    .schedules{
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .scheduleContainer h2{
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 550px) {
+    .scheduleContainer{
+        padding: 20px;
+    }
+    
+    .studyForms{
+        padding: 60px;
+    }
+
+    .coursehead h1, .courseheadRobo h1, .courseheadProgramming h1, .courseheadGameDev h1{
+        font-size: 30px;
+        width: 100%;
+    }
+
+    .scheduleContainer h2{
+        width: 10px;
+        font-size: 24px;
+
+    }
+
+    .studyForms{
+        text-align: center;
+    }
+
 }
